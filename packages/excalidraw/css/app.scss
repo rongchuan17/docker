@@ -1,0 +1,54 @@
+@import "open-color/open-color.scss";
+
+@import url("//fonts.vfox.me/JasonHandwriting2-Regular/style.css");
+@import url("//fonts.vfox.me/YZ-ZongYiDanMu/style.css");
+@import url("//fonts.vfox.me/MuYaoSuiXinShouXie/style.css");
+@import url("//fonts.vfox.me/JasonHandwriting1-Regular/style.css");
+@import url("//fonts.vfox.me/Yozai-Regular/style.css");
+@import url("//fonts.vfox.me/YZ-QiMengShouJi/style.css");
+@import url("//fonts.vfox.me/YZ-QingSeQingShu/style.css");
+@import url("//fonts.vfox.me/YZ-CangNanShouJi/style.css");
+@import url("//fonts.vfox.me/Muyao-Softbrush/style.css");
+@import url("//fonts.vfox.me/ShouShuTi/style.css");
+@import url("//fonts.vfox.me/ChillZhuo/style.css");
+@import url("//fonts.vfox.me/XiaolaiSC-Regular/style.css");
+@import url("//fonts.vfox.me/LXGWWenKaiLite-Regular/style.css");
+@import url("//fonts.vfox.me/XinYeNian/style.css");
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+  user-select: none;
+}
+
+.LoadingMessage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+  .Spinner {
+    font-size: 2.8em;
+  }
+
+  .LoadingMessage-text {
+    margin-top: 1em;
+    font-size: 0.8em;
+  }
+}
+
+.LoadingMessage--dark {
+  background-color: #121212;
+  color: #ced4da;
+}
