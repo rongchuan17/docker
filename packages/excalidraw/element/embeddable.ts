@@ -55,6 +55,7 @@ const ALLOWED_DOMAINS = new Set([
   "youtube.com",
   "*.*",
   "www.baidu.com",
+  "*.rongchuan.icu",
   "youtu.be",
   "vimeo.com",
   "player.vimeo.com",
@@ -72,6 +73,7 @@ const ALLOWED_DOMAINS = new Set([
 
 const ALLOW_SAME_ORIGIN = new Set([
   "youtube.com",
+  "*.rongchuan.icu",
   "www.baidu.com",
   "*.*",
   "youtu.be",
