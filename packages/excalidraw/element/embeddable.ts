@@ -54,6 +54,7 @@ const RE_REDDIT_EMBED =
 const ALLOWED_DOMAINS = new Set([
   "youtube.com",
   "*.*",
+  "www.baidu.com",
   "youtu.be",
   "vimeo.com",
   "player.vimeo.com",
@@ -71,6 +72,7 @@ const ALLOWED_DOMAINS = new Set([
 
 const ALLOW_SAME_ORIGIN = new Set([
   "youtube.com",
+  "www.baidu.com",
   "*.*",
   "youtu.be",
   "vimeo.com",
