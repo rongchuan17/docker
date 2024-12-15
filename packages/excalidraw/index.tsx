@@ -47,7 +47,7 @@ const ExcalidrawBase = (props: ExcalidrawProps) => {
     onPointerUp,
     onScrollChange,
     children,
-    validateEmbeddable,
+    validateEmbeddable = true,
     renderEmbeddable,
     aiEnabled,
     showDeprecatedFonts,
